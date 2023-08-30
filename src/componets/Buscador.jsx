@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 const Buscador = ({ filtrarFeriados }) => {
   const [busqueda, setBusqueda] = useState("");
   const feriadosFiltrados = filtrarFeriados(busqueda);
-  //llama a la función filtrarFeriados (pasada como prop) 
+  //llama a la función filtrarFeriados (pasada como prop).
   //para obtener los feriados filtrados en función del término de búsqueda actual.
 
 
